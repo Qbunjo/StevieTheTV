@@ -20,8 +20,8 @@ uint32_t d;
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(N_LEDS, PIN, NEO_GRB + NEO_KHZ800);
 
 
-const String ssid = "TurboKombi";
-const String password = "Jakuboslaw";
+const String ssid = "SSID ";
+const String password = "PASS";
 
 int t = 0, tH = 0, tM = 0;
 int hour = 3600; //hour in seconds
